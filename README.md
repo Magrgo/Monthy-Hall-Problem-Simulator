@@ -1,7 +1,7 @@
 # Monthy-Hall-Simulator
 ![thumbn](https://github.com/Magrgo/Monthy-Hall-Simulator/assets/102856537/8dd386ba-a987-47a3-9943-0bd424ab6a7d)
 
-## A program which can simulate and show the results of the popular "Monty Hall problem"
+## A program which can simulate and show the results of the "Monty Hall problem"
 
 
 ### The Game
