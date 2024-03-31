@@ -397,9 +397,11 @@ door3 = Door(mFrame, 3)
 
 simspeed = IntVar()
 simspeed.set(1.0)
-sc = Scale(mFrame, variable=simspeed, from_=1, to=8)
+sc = Scale(mFrame, variable=simspeed, from_=1, to=10)
 sc.grid(row=1, column=3, sticky="e")
 sc.config(state=DISABLED)
+sc_label = Label(mFrame, text="Speed")
+sc_label.grid(row=1, column=3, sticky="en", pady=height/6.8)
 
 simb = Button(mFrame, text="Simulate", font=('Calibri', 15), command=sthread)
 simb.grid(row=2, column=2)
